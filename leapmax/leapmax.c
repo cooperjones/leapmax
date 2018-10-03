@@ -147,8 +147,17 @@ void leapmax_bang(t_leapmax *x) {
 		dictionary_appendlong(x->d, gensym("hands"), frame->nHands);
 
 		//post("Frame %lli with %i hands.\n", (long long int)frame->tracking_frame_id, frame->nHands);
+		int isRight = 0;
+		int isLeft = 0;
 		for (uint32_t h = 0; h < frame->nHands && h < 2; h++) {
 			LEAP_HAND* hand = &frame->pHands[h];
+
+			if (hand->type == eLeapHandType_Left) {
+				isLeft = 1;
+			}
+			else if (hand->type == eLeapHandType_Right) {
+				isRight = 1;
+			}
 
 			//Allocate temporary memory
 			t_atom argv[4];
@@ -156,6 +165,8 @@ void leapmax_bang(t_leapmax *x) {
 
 			createHand(x, temp, hand);
 		}
+		dictionary_appendlong(x->d, gensym("isRight"), isRight);
+		dictionary_appendlong(x->d, gensym("isLeft"), isLeft);
 
 		x->prevFrame = frame;
 
