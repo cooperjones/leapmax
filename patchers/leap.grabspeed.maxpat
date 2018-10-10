@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 414.0, 167.0, 550.0, 293.0 ],
+		"rect" : [ 414.0, 167.0, 430.0, 276.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,20 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-4",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 83.0, 199.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -70,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.0, 226.0, 258.0, 48.0 ],
+					"patching_rect" : [ 159.416687, 217.0, 258.0, 48.0 ],
 					"style" : "",
 					"text" : "Argument is a leap hand type (right or left)\n\nOutput is the rate of change of the grab value"
 				}
@@ -82,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 160.0, 150.0, 20.0 ],
+					"patching_rect" : [ 267.416687, 75.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "gcjones1@asu.edu"
 				}
@@ -94,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 131.0, 150.0, 20.0 ],
+					"patching_rect" : [ 267.416687, 46.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "by George Cooper Jones"
 				}
@@ -106,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 103.0, 150.0, 20.0 ],
+					"patching_rect" : [ 267.416687, 18.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Grab Speed"
 				}
@@ -120,7 +106,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 257.0, 30.0, 30.0 ],
+					"patching_rect" : [ 20.0, 235.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -179,21 +165,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 103.0, 161.0, 81.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 3,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -235,16 +206,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -259,15 +221,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 

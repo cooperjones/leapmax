@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 603.0, 300.0, 352.0, 480.0 ],
+		"rect" : [ 603.0, 300.0, 352.0, 450.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.5, 379.0, 197.0, 62.0 ],
+					"patching_rect" : [ 121.0, 372.0, 197.0, 62.0 ],
 					"style" : "",
 					"text" : "Output an angle value (0-360) of the vector from the origin to a point with angle 0 being directly behind the performer"
 				}
@@ -53,12 +53,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 42.0, 30.0, 30.0 ],
+					"patching_rect" : [ 25.0, 14.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -67,25 +67,11 @@
 				"box" : 				{
 					"comment" : "Angle (0-360)",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 430.0, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-37",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 251.0, 50.0, 22.0 ],
+					"patching_rect" : [ 59.0, 372.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -96,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 82.0, 150.0, 20.0 ],
+					"patching_rect" : [ 168.0, 71.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "gcjones1@asu.edu"
 				}
@@ -108,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 53.0, 150.0, 20.0 ],
+					"patching_rect" : [ 168.0, 42.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "by George Cooper Jones"
 				}
@@ -120,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 25.0, 150.0, 20.0 ],
+					"patching_rect" : [ 168.0, 14.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Rotation"
 				}
@@ -133,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 111.0, 150.0, 48.0 ],
+					"patching_rect" : [ 106.0, 150.0, 150.0, 48.0 ],
 					"style" : "",
 					"text" : "Collect the horizontal position of the specified point"
 				}
@@ -146,23 +132,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 208.0, 301.0, 38.0, 22.0 ],
+					"patching_rect" : [ 180.0, 302.0, 38.0, 22.0 ],
 					"style" : "",
 					"text" : "- 360"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-28",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 87.0, 379.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -173,7 +145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 333.0, 159.0, 22.0 ],
+					"patching_rect" : [ 59.0, 334.0, 159.0, 22.0 ],
 					"style" : "",
 					"text" : "if $f1>360. then $f2 else $f1"
 				}
@@ -186,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 87.0, 283.0, 44.0, 22.0 ],
+					"patching_rect" : [ 59.0, 284.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "+ 270."
 				}
@@ -201,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 87.0, 249.0, 44.0, 23.0 ],
+					"patching_rect" : [ 59.0, 250.0, 44.0, 23.0 ],
 					"style" : "",
 					"text" : "* 180."
 				}
@@ -216,23 +188,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 87.0, 215.0, 72.0, 23.0 ],
+					"patching_rect" : [ 59.0, 216.0, 72.0, 23.0 ],
 					"style" : "",
 					"text" : "/ 3.141593"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-12",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 215.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -269,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 25.0, 111.0, 70.0, 22.0 ],
+					"patching_rect" : [ 25.0, 111.0, 138.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.get #1"
 				}
@@ -302,15 +260,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -338,16 +287,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 1,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"order" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -368,28 +308,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

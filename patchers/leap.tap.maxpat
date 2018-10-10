@@ -38,6 +38,44 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 385.0, 552.0, 63.0, 22.0 ],
+					"style" : "",
+					"text" : "delay 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 451.0, 591.0, 160.0, 20.0 ],
+					"style" : "",
+					"text" : "For filtering out duplicates\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 385.0, 591.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "onebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-44",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -644,7 +682,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -733,7 +771,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -759,7 +797,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1221,7 +1259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 62.0, 153.0, 22.0 ],
+					"patching_rect" : [ 15.0, 62.0, 161.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.get #1indextipposition"
 				}
@@ -1533,7 +1571,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 2 ],
-					"midpoints" : [ 113.833333, 87.0, 225.0, 87.0, 225.0, 102.0, 258.5, 102.0 ],
+					"midpoints" : [ 119.166667, 87.0, 225.0, 87.0, 225.0, 102.0, 258.5, 102.0 ],
 					"order" : 0,
 					"source" : [ "obj-9", 2 ]
 				}
@@ -1542,7 +1580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"midpoints" : [ 69.166667, 102.0, 141.5, 102.0 ],
+					"midpoints" : [ 71.833333, 102.0, 141.5, 102.0 ],
 					"order" : 0,
 					"source" : [ "obj-9", 1 ]
 				}
@@ -1569,7 +1607,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 69.166667, 87.0, 0.0, 87.0, 0.0, 141.0, 75.5, 141.0 ],
+					"midpoints" : [ 71.833333, 87.0, 0.0, 87.0, 0.0, 141.0, 75.5, 141.0 ],
 					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
@@ -1578,7 +1616,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 113.833333, 87.0, 0.0, 87.0, 0.0, 141.0, 127.5, 141.0 ],
+					"midpoints" : [ 119.166667, 87.0, 0.0, 87.0, 0.0, 141.0, 127.5, 141.0 ],
 					"order" : 1,
 					"source" : [ "obj-9", 2 ]
 				}
@@ -1592,41 +1630,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leap.acceleration3.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leap.velocity.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leap.fingerbend.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leapget.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

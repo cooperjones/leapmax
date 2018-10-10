@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 414.0, 167.0, 550.0, 293.0 ],
+		"rect" : [ 414.0, 167.0, 456.0, 322.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.0, 226.0, 380.0, 48.0 ],
+					"patching_rect" : [ 65.0, 239.0, 380.0, 48.0 ],
 					"style" : "",
 					"text" : "Argument is a leap hand type (right or left) followed by a finger type\n\nOutput is the rate of change of the grab value"
 				}
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 160.0, 150.0, 20.0 ],
+					"patching_rect" : [ 295.0, 75.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "gcjones1@asu.edu"
 				}
@@ -94,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 131.0, 150.0, 20.0 ],
+					"patching_rect" : [ 295.0, 46.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "by George Cooper Jones"
 				}
@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.416687, 103.0, 150.0, 20.0 ],
+					"patching_rect" : [ 295.0, 18.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Bend Speed"
 				}
@@ -116,7 +116,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -141,7 +141,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-22",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -179,21 +179,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 103.0, 161.0, 81.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"setstyle" : 3,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -212,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 62.0, 130.0, 22.0 ],
+					"patching_rect" : [ 20.0, 62.0, 134.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.fingerbend #1 #2"
 				}
@@ -235,16 +220,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -286,20 +262,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "leap.fingerbend.maxpat",
-				"bootpath" : "~/Documents/ASU/Thesis/LeapLibrary/Leap4Library",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leapget.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
