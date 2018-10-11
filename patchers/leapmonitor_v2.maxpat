@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 454.0, 208.0, 318.0, 232.0 ],
+		"rect" : [ 454.0, 208.0, 322.0, 263.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 181.0, 150.0, 34.0 ],
+					"patching_rect" : [ 9.0, 467.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 164.0, 228.0, 20.0 ],
+					"presentation_rect" : [ 76.0, 209.0, 228.0, 20.0 ],
 					"style" : "",
 					"text" : "Visualizer (delete for better performance)"
 				}
@@ -59,7 +59,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.0, 138.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 132.666687, 150.0, 20.0 ],
+					"presentation_rect" : [ 96.0, 177.666687, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Orientation Patcher"
 				}
@@ -75,7 +75,7 @@
 					"patching_rect" : [ 137.0, 192.666687, 315.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 45.0, 93.666687, 269.0, 34.0 ],
+					"presentation_rect" : [ 45.0, 138.666687, 269.0, 34.0 ],
 					"style" : "",
 					"text" : "Look in the direction you would like to designate as forward and press this button to zero"
 				}
@@ -90,7 +90,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 99.5, 192.666687, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.5, 93.666687, 24.0, 24.0 ],
+					"presentation_rect" : [ 13.5, 138.666687, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -101,9 +101,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 463.0, 219.0, 20.0 ],
+					"patching_rect" : [ 9.0, 509.0, 219.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 206.5, 219.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 236.5, 219.0, 20.0 ],
 					"style" : "",
 					"text" : "Press Escape for fullscreen visualizer"
 				}
@@ -300,7 +300,7 @@
 					"outlettype" : [ "float", "float", "float", "float" ],
 					"patching_rect" : [ 49.25, 238.666687, 74.25, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.5, 132.666687, 74.25, 22.0 ],
+					"presentation_rect" : [ 14.5, 177.666687, 74.25, 22.0 ],
 					"style" : "",
 					"text" : "BNO"
 				}
@@ -368,6 +368,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 273.0, 92.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 13.5, 98.5, 92.5, 22.0 ],
 					"style" : "",
 					"text" : "leapmax"
 				}
@@ -955,7 +957,7 @@
 ,
 					"patching_rect" : [ 14.5, 432.0, 58.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.5, 164.0, 58.0, 22.0 ],
+					"presentation_rect" : [ 14.5, 209.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1030,7 +1032,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 351.0, 7.0, 271.0, 85.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 6.0, 307.0, 195.5 ],
+					"presentation_rect" : [ 7.0, 6.0, 307.0, 250.5 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1139,7 +1141,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BNO.maxpat",
-				"bootpath" : "~/Documents/ASU/Thesis/LeapLibrary/Leap4Library",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

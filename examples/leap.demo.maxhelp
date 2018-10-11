@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 35.0, 82.0, 890.0, 920.0 ],
+		"rect" : [ 42.0, 82.0, 890.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 529.5, 1370.0, 44.0, 47.0 ],
-					"presentation_rect" : [ 668.5, 1297.0, 0.0, 0.0 ],
+					"patching_rect" : [ 440.5, 1107.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[3]",
@@ -68,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 423.5, 1468.0, 24.0, 24.0 ],
+					"patching_rect" : [ 334.5, 1205.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -79,8 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 1343.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 421.0, 1330.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 1080.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Tap"
 				}
@@ -93,8 +91,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 1370.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 421.0, 1357.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 1107.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -107,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 1431.0, 105.0, 22.0 ],
+					"patching_rect" : [ 334.5, 1168.0, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.tap left index"
 				}
@@ -119,8 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 1343.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 19.0, 1278.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 1080.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Rotation"
 				}
@@ -135,8 +131,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 1437.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 19.0, 1372.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 1174.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -148,8 +143,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1370.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 19.0, 1305.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 1107.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -162,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1405.0, 179.0, 22.0 ],
+					"patching_rect" : [ 18.0, 1142.0, 179.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.rotation leftindextipposition"
 				}
@@ -174,8 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 963.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 422.0, 1133.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 729.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Grab Speed"
 				}
@@ -190,8 +183,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 1057.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 422.0, 1227.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 823.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -203,8 +195,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 990.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 422.0, 1160.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 756.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -217,7 +208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 423.5, 1025.0, 113.0, 22.0 ],
+					"patching_rect" : [ 334.5, 791.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.grabspeed left"
 				}
@@ -229,8 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 963.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 18.0, 1103.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 729.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Bend Speed"
 				}
@@ -245,8 +235,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 1057.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 18.0, 1197.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 823.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -258,8 +247,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 990.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 18.0, 1130.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 756.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -272,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 18.0, 1025.0, 147.0, 22.0 ],
+					"patching_rect" : [ 18.0, 791.0, 147.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.bendspeed left index"
 				}
@@ -284,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 901.0, 1212.0, 150.0, 20.0 ],
+					"patching_rect" : [ 688.0, 934.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Posture tolerance (0-1)"
 				}
@@ -296,7 +284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.5, 1182.5, 150.0, 20.0 ],
+					"patching_rect" : [ 625.5, 904.5, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Bang to set posture"
 				}
@@ -310,7 +298,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 849.5, 1212.0, 44.0, 47.0 ],
+					"patching_rect" : [ 636.5, 934.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
@@ -333,7 +321,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 812.5, 1182.5, 24.0, 24.0 ],
+					"patching_rect" : [ 599.5, 904.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -344,8 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 775.5, 1154.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 713.5, 974.0, 0.0, 0.0 ],
+					"patching_rect" : [ 562.5, 876.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Get Posture"
 				}
@@ -360,8 +347,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 775.5, 1298.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 713.5, 1068.0, 0.0, 0.0 ],
+					"patching_rect" : [ 562.5, 1020.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -373,7 +359,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 775.5, 1266.0, 93.0, 22.0 ],
+					"patching_rect" : [ 562.5, 988.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.getposture"
 				}
@@ -385,8 +371,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 1154.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 426.5, 919.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 876.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Posture2"
 				}
@@ -401,8 +386,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 1248.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 426.5, 1013.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 970.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -414,8 +398,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 1181.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 426.5, 946.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 903.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -428,7 +411,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 1216.0, 103.0, 22.0 ],
+					"patching_rect" : [ 334.5, 938.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.posture2 left"
 				}
@@ -440,8 +423,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 1154.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 21.0, 919.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 872.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Posture"
 				}
@@ -456,8 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 1248.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 21.0, 1013.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 970.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -469,8 +450,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1181.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 21.0, 946.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 903.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -483,7 +463,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 1216.0, 96.0, 22.0 ],
+					"patching_rect" : [ 18.0, 938.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.posture left"
 				}
@@ -495,8 +475,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 789.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 421.0, 787.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 588.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Grab"
 				}
@@ -511,8 +490,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 883.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 421.0, 881.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 682.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -524,8 +502,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 816.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 421.0, 814.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 615.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -538,7 +515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 423.5, 851.0, 112.0, 22.0 ],
+					"patching_rect" : [ 334.5, 650.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.grab left index"
 				}
@@ -550,8 +527,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 789.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 20.0, 789.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 588.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Fingerbend"
 				}
@@ -566,8 +542,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 883.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 20.0, 883.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 682.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -579,8 +554,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 816.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 20.0, 816.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 615.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -593,7 +567,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 851.0, 145.0, 22.0 ],
+					"patching_rect" : [ 18.0, 650.0, 145.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.fingerbend left index"
 				}
@@ -605,8 +579,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 602.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 424.0, 601.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 444.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Acceleration"
 				}
@@ -621,8 +594,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 696.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 424.0, 695.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 538.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -634,8 +606,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 629.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 424.0, 628.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 471.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -648,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 423.5, 664.0, 203.0, 22.0 ],
+					"patching_rect" : [ 334.5, 506.0, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.acceleration leftindextipposition"
 				}
@@ -660,8 +631,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 602.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 18.0, 602.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 444.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Acceleration3"
 				}
@@ -676,8 +646,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.5, 696.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 121.5, 696.0, 0.0, 0.0 ],
+					"patching_rect" : [ 121.5, 538.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -691,8 +660,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 69.5, 696.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 69.5, 696.0, 0.0, 0.0 ],
+					"patching_rect" : [ 69.5, 538.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -706,8 +674,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 696.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 18.0, 696.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 538.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -719,8 +686,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 629.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 18.0, 629.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 471.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -733,7 +699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 18.0, 664.0, 210.0, 22.0 ],
+					"patching_rect" : [ 18.0, 506.0, 210.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.acceleration3 leftindextipposition"
 				}
@@ -745,8 +711,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 410.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 422.0, 410.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 301.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Speed"
 				}
@@ -761,8 +726,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 504.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 422.0, 504.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 395.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -774,8 +738,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 437.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 422.0, 437.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 328.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -788,7 +751,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 472.0, 171.0, 22.0 ],
+					"patching_rect" : [ 334.5, 363.0, 171.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.speed leftindextipposition"
 				}
@@ -800,8 +763,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 410.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 436.0, 205.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 301.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Velocity"
 				}
@@ -816,8 +778,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.5, 504.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 539.5, 299.0, 0.0, 0.0 ],
+					"patching_rect" : [ 121.5, 395.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -831,8 +792,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 69.5, 504.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 487.5, 299.0, 0.0, 0.0 ],
+					"patching_rect" : [ 69.5, 395.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -846,8 +806,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 504.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 436.0, 299.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 395.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -859,8 +818,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 437.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 436.0, 232.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 328.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -873,7 +831,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 18.0, 472.0, 179.0, 22.0 ],
+					"patching_rect" : [ 18.0, 363.0, 179.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.velocity leftindextipposition"
 				}
@@ -885,8 +843,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.5, 226.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 16.0, 207.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 164.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Distance"
 				}
@@ -901,8 +858,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.5, 320.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 16.0, 301.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 258.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -914,8 +870,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 253.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 16.0, 234.0, 0.0, 0.0 ],
+					"patching_rect" : [ 334.5, 191.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -928,7 +883,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.5, 288.0, 290.0, 22.0 ],
+					"patching_rect" : [ 334.5, 226.0, 290.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.distance leftindextipposition leftthumbtipposition"
 				}
@@ -940,8 +895,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 226.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 266.0, 32.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 164.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Difference"
 				}
@@ -953,7 +907,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 31.0, 150.0, 20.0 ],
+					"patching_rect" : [ 18.0, 25.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Leap Get"
 				}
@@ -968,8 +922,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.5, 320.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 360.5, 123.0, 0.0, 0.0 ],
+					"patching_rect" : [ 121.5, 258.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -983,8 +936,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 69.5, 320.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 308.5, 123.0, 0.0, 0.0 ],
+					"patching_rect" : [ 69.5, 258.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -998,8 +950,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 320.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 257.0, 123.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 258.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1011,8 +962,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 253.0, 85.0, 22.0 ],
-					"presentation_rect" : [ 257.0, 56.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 191.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -1025,7 +975,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 18.0, 288.0, 298.0, 22.0 ],
+					"patching_rect" : [ 18.0, 226.0, 298.0, 22.0 ],
 					"style" : "",
 					"text" : "leap.difference leftindextipposition leftthumbtipposition"
 				}
@@ -1040,8 +990,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.5, 125.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 124.5, 150.0, 0.0, 0.0 ],
+					"patching_rect" : [ 121.5, 119.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1055,7 +1004,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 69.5, 125.0, 50.0, 22.0 ],
+					"patching_rect" : [ 69.5, 119.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1069,7 +1018,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 125.0, 50.0, 22.0 ],
+					"patching_rect" : [ 18.0, 119.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1081,7 +1030,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 58.0, 85.0, 22.0 ],
+					"patching_rect" : [ 18.0, 52.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "r updateframe"
 				}
@@ -1094,9 +1043,144 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 18.0, 93.0, 153.5, 22.0 ],
+					"patching_rect" : [ 18.0, 87.0, 153.5, 22.0 ],
 					"style" : "",
 					"text" : "leap.get leftindextipposition"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 159.0, 628.0, 126.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 296.0, 628.0, 126.0 ],
+					"presentation_rect" : [ 11.0, 291.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 440.0, 628.0, 126.0 ],
+					"presentation_rect" : [ 14.0, 442.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 584.0, 628.0, 126.0 ],
+					"presentation_rect" : [ 12.0, 584.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 723.0, 628.0, 126.0 ],
+					"presentation_rect" : [ 14.0, 723.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-16",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 866.0, 831.0, 182.0 ],
+					"presentation_rect" : [ 25.0, 858.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-17",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 1066.0, 831.0, 169.0 ],
+					"presentation_rect" : [ 10.0, 1066.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-19",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 20.0, 628.0, 126.0 ],
+					"presentation_rect" : [ 14.0, 20.0, 0.0, 0.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
@@ -1407,8 +1491,8 @@
  ],
 		"parameters" : 		{
 			"obj-75::obj-9" : [ "live.dial[1]", "Accuracy", 0 ],
-			"obj-102" : [ "live.dial[3]", "tolerance", 0 ],
-			"obj-78" : [ "live.dial", "tolerance", 0 ]
+			"obj-78" : [ "live.dial", "tolerance", 0 ],
+			"obj-102" : [ "live.dial[3]", "tolerance", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
