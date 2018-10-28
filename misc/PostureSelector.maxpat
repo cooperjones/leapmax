@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 187.0, 58.0, 348.0, 22.0 ],
+					"style" : "",
+					"text" : "0.581623 0.873167 0.546749 0.554793 0.437522"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-46",
 					"maxclass" : "flonum",
@@ -59,7 +72,6 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 568.0, 262.0, 22.0, 140.0 ],
-					"presentation_rect" : [ 570.0, 264.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -73,7 +85,6 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 429.0, 262.0, 22.0, 140.0 ],
-					"presentation_rect" : [ 429.0, 260.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -87,7 +98,6 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 252.0, 262.0, 22.0, 140.0 ],
-					"presentation_rect" : [ 373.0, 262.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -670,7 +680,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -678,14 +688,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"order" : 2,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
 					"order" : 3,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -693,8 +695,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 4,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 1 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1004,36 +1022,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "leap.posture.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "leap.fingerposture.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.distance.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.getposture.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
