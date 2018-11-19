@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -267,10 +267,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 58.0, 337.0, 152.0, 22.0 ],
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 58.0, 337.0, 155.0, 22.0 ],
 					"style" : "",
-					"text" : "leapget leftindextipposition"
+					"text" : "leap.get leftindextipposition"
 				}
 
 			}
@@ -345,10 +345,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 264.0, 337.0, 159.0, 22.0 ],
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 264.0, 337.0, 163.0, 22.0 ],
 					"style" : "",
-					"text" : "leapget rightindextipposition"
+					"text" : "leap.get rightindextipposition"
 				}
 
 			}
@@ -616,42 +616,38 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "leap.tap.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.acceleration3.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.velocity.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.fingerbend.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/leapmax/patchers",
-				"patcherrelativepath" : "../../../../leapmax/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "leapget.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
