@@ -38,6 +38,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 654.0, 30.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 656.0, 65.0, 100.0, 17.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 28, "obj-2", "matrixctrl", "list", 0, 0, 1, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 5, "obj-13", "number", "int", 5, 5, "obj-15", "slider", "float", 5.0, 5, "obj-16", "incdec", "float", 5.0, 5, "obj-26", "live.gain~", "float", 0.0, 5, "obj-27", "live.gain~", "float", 0.0, 5, "obj-29", "live.gain~", "float", 0.0, 5, "obj-35", "live.dial", "float", 0.503937 ]
+						}
+ ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -882,6 +912,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -889,100 +926,100 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35" : [ "live.dial[29]", "Sensitivity", 0 ],
-			"obj-109::obj-94" : [ "live.dial[18]", "Pitch Max", 0 ],
-			"obj-109::obj-93" : [ "live.dial[19]", "Pitch Min.", 0 ],
-			"obj-30::obj-56" : [ "live.gain~[3]", "Gain", 0 ],
 			"obj-31::obj-23" : [ "live.gain~[9]", "Gain", 0 ],
-			"obj-109::obj-90" : [ "live.dial[20]", "Length max.", 0 ],
-			"obj-109::obj-91" : [ "live.dial[21]", "Length min.", 0 ],
-			"obj-31::obj-19" : [ "live.dial[23]", "Harmonicity Ratio (Mod 1)", 0 ],
-			"obj-109::obj-96" : [ "live.dial[6]", "Pan Max.", 0 ],
-			"obj-109::obj-70" : [ "live.gain~[8]", "Gain", 0 ],
+			"obj-30::obj-23" : [ "live.gain~[11]", "Gain", 0 ],
 			"obj-30::obj-61::obj-25" : [ "live.dial[35]", "Carrier Frequency", 0 ],
 			"obj-30::obj-55" : [ "live.dial[32]", "Sensitivity", 0 ],
-			"obj-109::obj-98" : [ "live.dial[15]", "Gain Max.", 0 ],
-			"obj-30::obj-19" : [ "live.dial[26]", "Harmonicity Ratio (Mod 1)", 0 ],
-			"obj-27" : [ "live.gain~[1]", "Ch 2", 0 ],
 			"obj-31::obj-56" : [ "live.gain~[10]", "Gain", 0 ],
-			"obj-26" : [ "live.gain~", "Ch 1", 0 ],
-			"obj-29" : [ "live.gain~[2]", "Ch 3", 0 ],
-			"obj-109::obj-101" : [ "live.dial[13]", "Window Max", 0 ],
-			"obj-30::obj-25" : [ "live.dial[28]", "Carrier Frequency", 0 ],
-			"obj-109::obj-20" : [ "live.dial", "Start min.", 0 ],
-			"obj-31::obj-27" : [ "live.dial[24]", "Harmonicity Ratio", 0 ],
-			"obj-109::obj-97" : [ "live.dial[17]", "Pan Min.", 0 ],
-			"obj-30::obj-61::obj-27" : [ "live.dial[34]", "Harmonicity Ratio", 0 ],
-			"obj-109::obj-17" : [ "live.dial[14]", "Rate", 0 ],
-			"obj-31::obj-25" : [ "live.dial[25]", "Carrier Frequency", 0 ],
-			"obj-30::obj-23" : [ "live.gain~[11]", "Gain", 0 ],
-			"obj-109::obj-99" : [ "live.dial[16]", "Gain Min.", 0 ],
-			"obj-109::obj-33" : [ "live.dial[22]", "Start max.", 0 ],
 			"obj-30::obj-27" : [ "live.dial[27]", "Harmonicity Ratio", 0 ],
+			"obj-109::obj-97" : [ "live.dial[17]", "Pan Min.", 0 ],
+			"obj-109::obj-99" : [ "live.dial[16]", "Gain Min.", 0 ],
+			"obj-109::obj-101" : [ "live.dial[13]", "Window Max", 0 ],
+			"obj-30::obj-61::obj-27" : [ "live.dial[34]", "Harmonicity Ratio", 0 ],
+			"obj-31::obj-19" : [ "live.dial[23]", "Harmonicity Ratio (Mod 1)", 0 ],
+			"obj-109::obj-20" : [ "live.dial", "Start min.", 0 ],
+			"obj-109::obj-33" : [ "live.dial[22]", "Start max.", 0 ],
+			"obj-27" : [ "live.gain~[1]", "Ch 2", 0 ],
+			"obj-30::obj-19" : [ "live.dial[26]", "Harmonicity Ratio (Mod 1)", 0 ],
+			"obj-109::obj-17" : [ "live.dial[14]", "Rate", 0 ],
+			"obj-109::obj-100" : [ "live.dial[12]", "Window Min.", 0 ],
+			"obj-29" : [ "live.gain~[2]", "Ch 3", 0 ],
+			"obj-109::obj-94" : [ "live.dial[18]", "Pitch Max", 0 ],
+			"obj-26" : [ "live.gain~", "Ch 1", 0 ],
+			"obj-109::obj-93" : [ "live.dial[19]", "Pitch Min.", 0 ],
+			"obj-109::obj-90" : [ "live.dial[20]", "Length max.", 0 ],
+			"obj-30::obj-56" : [ "live.gain~[3]", "Gain", 0 ],
+			"obj-109::obj-91" : [ "live.dial[21]", "Length min.", 0 ],
+			"obj-109::obj-96" : [ "live.dial[6]", "Pan Max.", 0 ],
 			"obj-30::obj-61::obj-19" : [ "live.dial[33]", "Harmonicity Ratio (Mod 1)", 0 ],
-			"obj-109::obj-100" : [ "live.dial[12]", "Window Min.", 0 ]
+			"obj-109::obj-70" : [ "live.gain~[8]", "Gain", 0 ],
+			"obj-30::obj-25" : [ "live.dial[28]", "Carrier Frequency", 0 ],
+			"obj-31::obj-27" : [ "live.dial[24]", "Harmonicity Ratio", 0 ],
+			"obj-35" : [ "live.dial[29]", "Sensitivity", 0 ],
+			"obj-109::obj-98" : [ "live.dial[15]", "Gain Max.", 0 ],
+			"obj-31::obj-25" : [ "live.dial[25]", "Carrier Frequency", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "leap.granulator2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/misc",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/misc",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.speed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/basics/leapmax/Leap4Library",
+				"patcherrelativepath" : "../../basics/leapmax/Leap4Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.grab.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/basics/leapmax/Leap4Library",
+				"patcherrelativepath" : "../../basics/leapmax/Leap4Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.fingerbend.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/basics/leapmax/Leap4Library",
+				"patcherrelativepath" : "../../basics/leapmax/Leap4Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.hands.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.rotation.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.kamehameha.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/misc",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/misc",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.distance.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/basics/leapmax/Leap4Library",
+				"patcherrelativepath" : "../../basics/leapmax/Leap4Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -995,34 +1032,38 @@
 			}
 , 			{
 				"name" : "leap.tap.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.acceleration3.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.velocity.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.kamehameha_notap.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/misc",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/misc",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm.gausscloud~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "leapget.mxe64",
 				"type" : "mx64"
 			}
  ],
