@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 81.0, 1446.0, 921.0 ],
+		"rect" : [ 246.0, 263.0, 1446.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1075.0, 689.999939, 44.0, 47.0 ],
-					"presentation_rect" : [ 1075.0, 686.999939, 0.0, 0.0 ],
+					"patching_rect" : [ 831.012573, 767.733276, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[6]",
@@ -72,8 +71,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1010.0, 689.999939, 44.0, 47.0 ],
-					"presentation_rect" : [ 1010.0, 689.999939, 0.0, 0.0 ],
+					"patching_rect" : [ 766.012573, 767.733276, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[5]",
@@ -100,8 +98,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 950.0, 689.999939, 44.0, 47.0 ],
-					"presentation_rect" : [ 983.712585, 667.06665, 0.0, 0.0 ],
+					"patching_rect" : [ 706.012573, 767.733276, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[4]",
@@ -127,20 +124,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 936.0, 782.0, 61.0, 22.0 ],
+					"patching_rect" : [ 660.012573, 839.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "yafr"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 975.5, 867.0, 45.0, 45.0 ],
-					"style" : ""
 				}
 
 			}
@@ -210,7 +196,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 766.012573, 772.233276, 30.0, 30.0 ],
+					"patching_rect" : [ 766.012573, 872.233276, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -223,7 +209,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.012573, 772.233276, 30.0, 30.0 ],
+					"patching_rect" : [ 660.012573, 872.233276, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -3546,16 +3532,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 1,
-					"source" : [ "obj-257", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-257", 1 ]
 				}
 
@@ -3563,15 +3540,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-257", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
 					"source" : [ "obj-257", 0 ]
 				}
 
@@ -3592,7 +3560,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"order" : 1,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -3669,15 +3646,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
-					"source" : [ "obj-42", 1 ]
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-42", 0 ]
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-42", 1 ]
 				}
 
 			}
@@ -3804,29 +3781,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-38" : [ "live.dial[3]", "Slope", 0 ],
-			"obj-40" : [ "live.tab", "live.tab", 0 ],
-			"obj-39" : [ "live.dial[6]", "Time", 0 ],
-			"obj-36" : [ "live.dial[5]", "Time", 0 ],
 			"obj-72" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-37" : [ "live.dial", "Duration", 0 ],
+			"obj-38" : [ "live.dial[3]", "Slope", 0 ],
+			"obj-41" : [ "live.dial[1]", "Period", 0 ],
 			"obj-66" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-39" : [ "live.dial[6]", "Time", 0 ],
 			"obj-20" : [ "live.dial[4]", "Time", 0 ],
+			"obj-36" : [ "live.dial[5]", "Time", 0 ],
+			"obj-40" : [ "live.tab", "live.tab", 0 ],
 			"obj-257" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-41" : [ "live.dial[1]", "Period", 0 ]
+			"obj-37" : [ "live.dial", "Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "leap.get.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leapmax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leap.speed.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/leap/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/max-sdk-7.3.3/source/basics/leapmax/Leap4Library",
+				"patcherrelativepath" : "../../basics/leapmax/Leap4Library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3853,6 +3830,10 @@
 				"name" : "mubu.concat~.mxe64",
 				"type" : "mx64"
 			}
+, 			{
+				"name" : "leapget.mxe64",
+				"type" : "mx64"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -3876,6 +3857,9 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
@@ -3889,9 +3873,6 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 				}
 ,
@@ -3939,9 +3920,9 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 13.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3950,10 +3931,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
 					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -3962,12 +3943,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4295,8 +4276,8 @@
 , 			{
 				"name" : "texteditGold",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.68 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
