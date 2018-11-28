@@ -552,9 +552,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 93.999977, 539.400024, 155.0, 22.0 ],
+					"patching_rect" : [ 93.999977, 539.400024, 129.0, 22.0 ],
 					"style" : "",
-					"text" : "play~ sample_to_granulate"
+					"text" : "play~ sample_to_gran"
 				}
 
 			}
@@ -1209,8 +1209,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

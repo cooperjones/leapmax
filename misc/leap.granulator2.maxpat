@@ -1832,7 +1832,7 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 979.049988, 735.5, 136.0, 49.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 49.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[8]",
@@ -1986,9 +1986,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.166656, 624.266602, 83.0, 22.0 ],
+					"patching_rect" : [ 97.166656, 624.266602, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "r buffer-length"
+					"text" : "r #0buffer-length"
 				}
 
 			}
@@ -1999,9 +1999,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1637.841675, 319.016663, 87.0, 22.0 ],
+					"patching_rect" : [ 1637.841675, 319.016663, 114.0, 22.0 ],
 					"style" : "",
-					"text" : "s buffer-length"
+					"text" : "s #0buffer-length"
 				}
 
 			}
@@ -3334,8 +3334,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
